@@ -1,0 +1,44 @@
+body {
+font-family: 'Oswald', sans-serif;
+ text-align: center;
+}
+.miracles-title {
+  
+  text-align: center;
+}
+.block {
+  width: 500px;
+ background-color:darksalmon ;
+ margin: 20px;
+ padding: 20px;
+display: inline-block;
+box-sizing: border-box;
+}
+.content img {
+  width: 300px;
+}
+.content{
+  background-color: bisque;
+ padding: 10px; 
+width: 300px;
+text-align: center;
+margin: 0 auto;
+}
+.title {
+  color: darkslategray;
+text-shadow: 1px 2px 3px gold;
+font-weight: 500;
+}
+.descriptiont{
+  font-weight: 200;
+}
+ 
+/* .block-lm{
+  border:3px solid blue;
+padding: 20px;
+display: none;
+}
+.inline{
+  border: 3px solid blue;
+padding: 20px;
+} */
