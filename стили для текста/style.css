@@ -1,0 +1,27 @@
+.main-text-1{
+    font-size: 3;
+font-family: 'Oswald', sans-serif;
+text-decoration: underline;
+text-shadow: 4px 7px 8px red;
+}
+
+.main-text-2{
+font-family: 'Anton', sans-serif;
+text-align: center;
+background-color:green;
+text-decoration: overline;
+text-shadow: 1px 2px 3px gold;
+}
+
+.main-text-3{
+font-family: 'Smokum', cursive;
+text-shadow: 4px 5px 6px darkviolet;
+text-decoration: line-through;
+}
+
+.main-text-4{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 3px 10px blue;
+    text-transform: capitalize;
+}
+

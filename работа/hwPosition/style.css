@@ -1,0 +1,39 @@
+div{
+background-image: url("images/living-room-7939062\ 1.png");
+display: inline-block;
+width: 800px;
+height: 600px;
+}
+
+.canvas{
+    position:relative;
+    top: 270px;
+    left: 350px
+}
+
+
+.chair{
+position: relative;
+top: 270px;
+left: 270px;
+z-index: 2;
+}
+
+.flower{
+    position: relative;
+    top: 270px;
+    right: 370px;
+    z-index: 1;
+}
+
+.image{
+    position: relative;
+    bottom: 250px;
+    left: 220px;
+}
+
+.image-1{
+    position: relative;
+    bottom: 310px;
+    left: 240px;
+}

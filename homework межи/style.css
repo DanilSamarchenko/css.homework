@@ -1,0 +1,86 @@
+.content div {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+.block-1{border: 4px double blue;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-left: 5px dashed green;
+    border-top: 5px dashed green;
+    border-bottom: 5px dashed green;
+    border-right: 5px dashed green;
+    border: 5px dashed green;
+  background-image: linear-gradient(aqua,blueviolet);
+  border-radius: 100px;
+}
+.block-2{
+    border-width: 7px;
+    border-style: dotted;
+    border-color: aqua;
+    border-left: 7px dotted blueviolet;
+    border-top: 7px dotted blueviolet;
+    border-right: 7px dotted blueviolet;
+    border-bottom: 7px dotted blueviolet;
+    border: 7px dotted blueviolet;
+ background-image:linear-gradient(black,white);
+}
+.block-3{
+    border-width: 10px;
+        border-style: double;
+        border-color: aqua;
+        border-left: 10px double  red;
+        border-top: 10px double red;
+        border-right: 10px double red;
+        border-bottom: 10px double red;
+        border: 10px double red; 
+background-image:linear-gradient(yellow,black);
+  border-radius: 400px;    
+}
+
+.block-4{
+    border-width: 15px;
+        border-style: groove;
+        border-color: aqua;
+        border-left: 15px groove blue;
+        border-top: 15px groove blue;
+        border-right: 15px groove blue;
+        border-bottom: 15px groove blue;
+        border: 15px groove blue;
+background-image: linear-gradient(green,red);
+    
+}
+
+.block-5{
+    border-width: 16px;
+   border: 15px, black;
+   border-left-style: double;
+   border-right-style: dotted;
+   border-bottom-style: dashed;
+   border-top-style: groove;
+   border-radius: 150px;
+   background-image: linear-gradient(pink,blueviolet);
+       
+}
+
+.list-1 li:first-child{
+    font-size:50px ;
+    color: red;
+}
+.list-1 li:last-child{
+    color: blue;
+}
+
+.div-1 p:last-child{
+    color: blueviolet;
+}
+.list-2 li:nth-child(even) {
+    color: aqua;
+}
+.list-2 li:nth-child(odd) {
+    color: chartreuse;
+}
+.list-2 li:nth-child(5n) {
+    color: yellow;
+}
